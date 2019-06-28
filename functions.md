@@ -1,4 +1,4 @@
-# Snippets
+# Functions
 
 ## dirt
 Launch a docker container into interactive mode. Mount current directory.
