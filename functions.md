@@ -26,6 +26,8 @@ Prune all merged branches on all remotes.
 
 **NOTE**: For safety, this function is a dry-run.
 
+**NOTE**: Run this function in a clean repository (without extra local branches).
+
 **NOTE**: It will also try prune the default branch (will fail, for sure).
 
 ```sh
@@ -51,6 +53,8 @@ zsh <(prune-merged-on-remote)  # do the thing
 Archive all stale branches on remotes into tags starting with `archive/`.
 
 **NOTE**: For safety, this function is a dry-run.
+
+**NOTE**: Run this function in a clean repository (without extra local branches).
 
 ```sh
 archive-stale-remote-branch() {
